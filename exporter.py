@@ -21,6 +21,7 @@ logger = logging.getLogger(__name__)
 ENDPOINT_URL = os.getenv('ENDPOINT_URL', 'https://s3.idrivee2.com')
 ACCESS_KEY = os.getenv('ACCESS_KEY')
 SECRET_KEY = os.getenv('SECRET_KEY')
+REGION_NAME = os.getenv('REGION_NAME', 'default')
 BUCKETS = os.getenv('BUCKETS', '').split(',')
 SCRAPE_INTERVAL = int(os.getenv('SCRAPE_INTERVAL', '300'))  # 5 minutes default
 
@@ -51,7 +52,7 @@ try:
         endpoint_url=ENDPOINT_URL,
         aws_access_key_id=ACCESS_KEY,
         aws_secret_access_key=SECRET_KEY,
-        region_name='us-east-1',
+        region_name='eu-west-4',
         config=boto3.session.Config(
             signature_version='s3v4',
             retries={'max_attempts': 3, 'mode': 'standard'}
