@@ -1,0 +1,10 @@
+{
+  "endpoint_url": "https://s3.idrivee2.com",
+  "access_key": "YOUR_ACCESS_KEY",
+  "secret_key": "YOUR_SECRET_KEY",
+  "region": "us-east-1",
+  "buckets": [
+    "my-bucket-1",
+    "my-bucket-2"
+  ]
+}
