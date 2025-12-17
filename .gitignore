@@ -1,0 +1,430 @@
+# ===========================
+# Python
+# ===========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.env.*
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ===========================
+# Secrets & Credentials
+# ===========================
+# Never commit credentials!
+*.key
+*.pem
+*.p12
+*.pfx
+*.cer
+*.crt
+secrets/
+credentials/
+.secrets
+config.local.*
+*.secret
+
+# AWS credentials
+.aws/
+aws-credentials.*
+
+# Environment files with secrets
+.env.local
+.env.*.local
+.env.production
+.env.development
+.env.staging
+
+# ===========================
+# Docker
+# ===========================
+# Docker files
+docker-compose.override.yml
+.dockerignore
+
+# Container data
+volumes/
+data/
+
+# ===========================
+# IDEs & Editors
+# ===========================
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.vim/
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Eclipse
+.metadata
+.classpath
+.project
+.settings/
+*.pydevproject
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ===========================
+# OS Specific
+# ===========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===========================
+# Logs & Databases
+# ===========================
+# Log files
+*.log
+logs/
+*.log.*
+log/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+
+# ===========================
+# Monitoring & Metrics
+# ===========================
+# Prometheus data
+prometheus-data/
+prometheus/data/
+
+# Grafana data
+grafana-data/
+grafana/data/
+
+# Monitoring temporary files
+*.tsdb
+*.wal
+
+# ===========================
+# Temporary & Cache Files
+# ===========================
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+tmp/
+temp/
+cache/
+
+# Backup files
+*~
+*.orig
+*.rej
+
+# ===========================
+# Project Specific
+# ===========================
+# Testing & development
+test-data/
+test-output/
+sandbox/
+scratch/
+
+# Local configuration
+config.local.yml
+settings.local.py
+local.properties
+
+# Build artifacts
+*.tar.gz
+*.zip
+*.tar
+*.rar
+*.7z
+
+# Documentation builds
+docs/build/
+docs/_build/
+
+# Coverage reports
+htmlcov/
+coverage/
+
+# ===========================
+# CI/CD
+# ===========================
+# GitHub Actions
+.github/workflows/*.local.yml
+
+# GitLab CI
+.gitlab-ci.local.yml
+
+# Jenkins
+.jenkins/
+
+# ===========================
+# Grafana Specific
+# ===========================
+# Grafana provisioning secrets
+grafana/provisioning/datasources/secrets/
+grafana/provisioning/notifiers/secrets/
+
+# Grafana plugins (if any)
+grafana/plugins/
+
+# Grafana database
+grafana.db
+
+# ===========================
+# Prometheus Specific
+# ===========================
+# Prometheus storage
+prometheus/storage/
+prometheus/*.tsdb
+prometheus/*.wal
+
+# ===========================
+# Misc
+# ===========================
+# Node modules (if using any JS tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# SSH keys
+*.ssh
+id_rsa
+id_rsa.pub
+known_hosts
+
+# GPG keys
+*.gpg
+*.asc
+
+# Archives
+*.tar
+*.gz
+*.bz2
+*.xz
+*.zip
+*.rar
+*.7z
+
+# Local notes
+notes.txt
+TODO.txt
+NOTES.md
+scratch.md
+
+# ===========================
+# Keep these files
+# ===========================
+# Force include example files
+!.env.example
+!config.example.yml
+!docker-compose.example.yml
+!grafana/dashboards/*.json
+!prometheus/prometheus.yml.example
